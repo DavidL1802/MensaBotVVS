@@ -1,0 +1,2536 @@
+HTTP/1.1 200 OK
+server: nginx/1.19.10
+date: Thu, 01 Sep 2022 06:42:41 GMT
+content-type: text/xml
+content-length: 86007
+accept-ranges: none
+last-modified: Thu, 01 Sep 2022 06:42:41 GMT
+access-control-allow-origin: *
+connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<trias:Trias xmlns:trias="http://www.vdv.de/trias" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex2="http://datex2.eu/schema/1_0/1_0" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+   <trias:ServiceDelivery>
+      <siri:ResponseTimestamp>2022-09-01T06:42:41Z</siri:ResponseTimestamp>
+      <siri:ProducerRef>EFAController10.4.25.48-EFA-STATIC03</siri:ProducerRef>
+      <siri:Status>true</siri:Status>
+      <trias:Language>de</trias:Language>
+      <trias:CalcTime>180</trias:CalcTime>
+      <trias:DeliveryPayload>
+         <trias:StopEventResponse>
+            <trias:StopEventResponseContext>
+               <trias:Situations>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-06-09T06:23:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-2504</siri:SituationNumber>
+                     <siri:Version>3707</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-06-13T02:00:00Z</siri:StartTime>
+                        <siri:EndTime>2500-12-31T00:00:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Ludwigsburg Eglosheim: Haltestelle Markgröninger Straße verlegt in die Strombergstraße</siri:Summary>
+                     <siri:Description>Linie 532</siri:Description>
+                     <siri:Detail>Wegen Bauarbeiten kann die Haltestelle Markgröninger Straße in Ludwigsburg Eglosheim ab Montag, 13.06.2022 beidseitig nicht angefahren werden.
+ 
+Bitte nutzen sie die Ersatzhaltestelle in der Strombergstraße.</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-07-29T08:40:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-3417</siri:SituationNumber>
+                     <siri:Version>613</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-08-01T01:50:00Z</siri:StartTime>
+                        <siri:EndTime>2022-09-01T21:40:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Vollsperrung der Mundelsheimer Straße in Pleidelsheim</siri:Summary>
+                     <siri:Description>Linien 444, 459, N44</siri:Description>
+                     <siri:Detail>Sehr geehrte Fahrgäste,
+ 
+Ab Montag, den 01.08.2022 bis vsl. Donnerstag, den 01.09.2022 wird die Mundelsheimer Straße auf Höhe der Haltestelle "Wiegehalle" voll gesperrt. 
+ 
+Die Ersatzhaltestelle für die "Wiegehalle" in Richtung Freiberg wird in die Friedrichstraße gegenüber der Feuerwehr verlegt.
+ 
+Die Ersatzhaltestelle für die "Wiegehalle" in Richtung Mundelsheim/Höpfigheim wird in die Ludwig-Uhland-Straße kurz vor der Einmündung Mundelsheimer Straße verlegt.
+ 
+Wir bitten die Unannehmlichkeiten zu entschuldigen und danken für Ihr Verständnis.</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-07-18T12:06:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-2309</siri:SituationNumber>
+                     <siri:Version>4678792</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-05-30T01:30:00Z</siri:StartTime>
+                        <siri:EndTime>2022-09-09T21:50:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Vollsperrung Neckarbrücken zwischen Pleidelsheim und Ingersheim</siri:Summary>
+                     <siri:Description>Linien 444, 444A, 446, 446A, 459, 567, 567A, N44</siri:Description>
+                     <siri:Detail>Sehr geehrte Fahrgäste,
+ 
+aufgrund einer Vollsperrung der Neckarbrücke zwischen Ingersheim und Pleidelsheim, kommt es bei folgenden Linien zu Fahrplanänderungen und Linienabweichungen.
+ 
+Linie 444 fährt ab Freiberg "Bilfinger Str." über Freiberg "Beihinger Platz" nach Pleidelsheim und weiter nach Steinheim/Murr,
+bedient in Freiberg die Haltestelle „Beihinger Platz“ und in Pleidelsheim die Haltestelle „Beihinger Straße“.
+ 
+Linie 567 fährt von Bietigheim kommend über Großingersheim (Bertha-Benz-Straße, Gröninger
+Weg und Ludwigsburger Straße) nach Freiberg, Bahnhof (Endstation).
+In Großingersheim wird die Ersatzhaltestelle „Neckarstraße“ im Gröninger Weg bedient.
+In Freiberg werden die Haltestellen „Mönchsbergstraße“, „Geisinger Dorfplatz“ bedient. Dann geradeaus zur Ersatzhaltestelle „Bilfinger Straße“, dann direkt zum „Bahnhof“.
+Bei einzelnen Fahrten wird auch „Stadtzentrum“ bedient. Bitte Fahrplan beachten!
+ 
+Der N44 fährt von Ingersheim in umgekehrter Reihenfolge nach Pleidelsheim, und von Pleidelsheim über Freiberg "Beihinger Platz" zum "Bahnhof". 
+ 
+Linie 446 fährt auf unverändertem Weg, aber zu anderen Zeiten!
+ 
+Auch auf der Linie 459 gibt es vereinzelte Änderungen.
+ 
+Bitte beachten Sie die Umleitungsfahrpläne!</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-08-31T15:21:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-3987</siri:SituationNumber>
+                     <siri:Version>179019</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-08-29T13:00:00Z</siri:StartTime>
+                        <siri:EndTime>2500-12-31T00:00:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Steinheim (M): Haltestelle Bahnhof entfällt</siri:Summary>
+                     <siri:Description>Linien 444, 461</siri:Description>
+                     <siri:Detail>Von Montag, 29. August 2022 bis voraussichtlich auf Weiteres entfällt die Haltestelle Steinheim (M), Bahnhof für die Buslinien 444 und 461 aufgrund von Bauarbeiten. 
+
+Ersatzhaltestelle: 
+Bitte weichen Sie auf die Ersatzhaltestelle in der Nelkenstraße oder die Haltestelle "Murrer Str." aus</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-08-31T15:16:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-4023</siri:SituationNumber>
+                     <siri:Version>927</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-08-31T22:00:00Z</siri:StartTime>
+                        <siri:EndTime>2022-09-04T21:50:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Beeinträchtigungen aufgrund von Vollsperrungen im Raum Pleidelsheim</siri:Summary>
+                     <siri:Description>Linien 444, 459, N44</siri:Description>
+                     <siri:Detail>Sehr geehrte Fahrgäste,
+ 
+aufgrund von Vollsperrungen, die die komplette Gemeinde Pleidelsheim betreffen, gibt es umfangreiche Beeinträchtigungen für die Buslinien 444, 459 und N 44 im Zeitraum vom 01.09.2022 bis 04.09.2022. Bitte informieren Sie sich vor Fahrtantritt über die VVS Homepage, die Fahrplanaushänge und/oder die örtliche Presse über die jeweiligen Einzelheiten. Wir bitten um Ihr Verständnis!</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-06-20T08:33:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-2626</siri:SituationNumber>
+                     <siri:Version>703</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-06-20T01:50:00Z</siri:StartTime>
+                        <siri:EndTime>2022-10-07T21:50:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Haltestellenausbau "Wiegehalle" in Fahrtrichtung Mundelsheim</siri:Summary>
+                     <siri:Description>Linien 444, 459, N44</siri:Description>
+                     <siri:Detail>Sehr geehrte Fahrgäste,
+ 
+aufgrund des barrierefreien Ausbaus der Haltestelle "Wiegehalle" in Fahrtrichtung Mundelsheim muss die Haltestelle um 100 Metern auf Höhe der Eisdiele zurückverlegt werden.</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-06-13T12:50:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>LVL</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-2552</siri:SituationNumber>
+                     <siri:Version>631</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-06-20T02:00:00Z</siri:StartTime>
+                        <siri:EndTime>2022-11-18T23:00:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Ludwigsburg: Umleitung Linie 433, ab 20.06.2022 nicht über Bahnhof (Arena)</siri:Summary>
+                     <siri:Description>Linien 433, 433A</siri:Description>
+                     <siri:Detail>Aufgrund von Baumaßnahmen im Stadtgebiet von Ludwigsburg und den damit verbundenen erheblichen Verspätungen, verkehrt die Linie 433 ab Montag, den 20.06 2022 bis auf Weiteres nicht über die Haltestelle Ludwigsburg Bahnhof (Arena).
+ 
+Wir bitten unsere Fahrgäste auf die Haltestellen 2 bzw. 13 am ZOB Ludwigsburg auszuweichen</siri:Detail>
+                  </trias:PtSituation>
+                  <trias:PtSituation>
+                     <siri:CreationTime>2022-08-18T12:33:00Z</siri:CreationTime>
+                     <siri:ParticipantRef>LVL</siri:ParticipantRef>
+                     <siri:SituationNumber>ems-3779</siri:SituationNumber>
+                     <siri:Version>19324</siri:Version>
+                     <siri:Source>
+                        <siri:SourceType>other</siri:SourceType>
+                     </siri:Source>
+                     <siri:ValidityPeriod>
+                        <siri:StartTime>2022-08-29T02:00:00Z</siri:StartTime>
+                        <siri:EndTime>2022-09-03T22:00:00Z</siri:EndTime>
+                     </siri:ValidityPeriod>
+                     <siri:UnknownReason>unknown</siri:UnknownReason>
+                     <siri:Priority>3</siri:Priority>
+                     <siri:ScopeType>line</siri:ScopeType>
+                     <siri:Summary>Poppenweiler/Hochdorf: Vollsperrung der K 1673, eingeschränkter Linienverkehr der Linien 433 und N43</siri:Summary>
+                     <siri:Description>Linien 433, N43</siri:Description>
+                     <siri:Detail>Wegen Vollsperrung der K 1673 zwischen Poppenweiler und Hochdorf von Montag, den 29.08.2022 bis voraussichtlich 03.09.2022, verkehrt die Linie 433 nur von und bis Haltestelle Hochdorf Wilhelmsplatz.
+ 
+Die Haltestellen in Poppenweiler sowie die Haltestelle Hochdorf Poppenweiler Straße können nicht angefahren werden und entfallen.
+ 
+Fahrgäste von und nach Poppenweiler bitten wir auf die Linie 430 auszuweichen.
+ 
+Die Linie N43 verkehrt in Hochberg nur bis Haltestelle Hochberg Rotweg und bedient in Poppenweiler die Haltestellen Zehntscheuer Steinheimer Straße und Burghaldenstraße. Die Haltestellen Poppenweiler Jahnstraße, Friedhof und die Haltestellen in Hochdorf entfallen.</siri:Detail>
+                  </trias:PtSituation>
+               </trias:Situations>
+            </trias:StopEventResponseContext>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-5932C0A5-77DC-4683-83B8-6401E861DC8D</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:00:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::H:j22:79</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Pflugfelden - Ludwigsburg ZOB - Schlösslesfeld</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5494:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5502:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-9EF64EB7-56D0-4F14-AC96-7534A4C32406</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:1</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 1</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:00:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>9</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::R:j22:76</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Grünbühl - Ludwigsburg ZOB - Hoheneck</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5523:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5528:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-888928B9-C033-464C-8519-78C39238ACE2</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:9</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 9</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:00:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31532::H:j22:113</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31532::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>532</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:28</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Asperg - Markgröningen - Oberriexingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:9</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5641:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oberriexingen Mühlstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-2504</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-83800F84-6BBF-4ECC-8016-5F4457C86225</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:16</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 16</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:01:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>19</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31533::H:j22:165</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31533::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>533</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:28</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Aldingen - Ludwigsburg - Möglingen - Markgröningen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6832:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Aldingen Mühlweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3325:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Markgröningen Rebsteige</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-D74B87CF-4003-4C62-AC06-5753F78FCED3</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:8</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 8</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:01:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::R:j22:414</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Schlösslesfeld - Ludwigsburg ZOB - Pflugfelden</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5502:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5494:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-4CE3F0B0-1754-46AE-ACFD-51E11B591B7B</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:11</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 11</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:01:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>23</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31533::R:j22:55</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31533::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>533</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:28</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Markgröningen - Möglingen - Ludwigsburg - Aldingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3325:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Markgröningen Rebsteige</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6832:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Aldingen Mühlweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-E98B13BB-7433-4B28-B766-85AB706F47DC</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:01:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::H:j22:400</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Hoheneck - Ludwigsburg ZOB - Grünbühl</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5528:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5523:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-48510FE0-883D-4071-A9BB-DDF7B0A19529</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:12</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 12</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:02:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31444::H:j22:127</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31444::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>444</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:26</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Freiberg - Höpfigh. (- Steinheim)</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:12</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3592:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Höpfigheim Obere Seewiesen</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-3417</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-2309</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-3987</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-4023</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>VVS</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-2626</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-59C464B0-81FE-48EE-B8A1-868C28EDA85C</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:3</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 3</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:02:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31424::H:j22:201</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31424::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>424</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg ZOB - Päd. Hochschule - Breuningerland - IKEA</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3467:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg IKEA</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-7890428D-2033-4D33-A7F7-D30AB22DD4E8</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:02:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>14</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31421::R:j22:249</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31421::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>421</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Neckarweihingen - Ludwigsburg ZOB - Oststadt - Oßweil-Süd</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7451:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Neckarw. Imm.-Dornfeld-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6800:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oßweil Mehrzweckhalle</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-C9594307-373B-4D7E-A094-8DB27A175AEF</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:2</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 2</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:02:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>6</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31430::R:j22:522</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31430::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>430</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg Heilbronner Straße - ZOB - Poppenweiler</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3412:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Heilbronner Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6985:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Poppenweiler Jahnstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-84735F8B-C5DF-45FA-95FD-EDD3A1F2A9D2</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:5</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 5</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:03:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31431::H:j22:107</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31431::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>431</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Neckargröningen - Neckarrems (- Hegnach - Waiblingen)</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:5</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:4885:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Neckarrems Neckarhalde</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-761D5185-07A2-4321-8AA9-FACFDBCD9604</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:06:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31429::R:j22:134</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31429::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>429</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Neckarweih. - Ludwigsburg ZOB - Kornwestheim W&amp;W</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:4:6</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3361:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Kornwestheim W &amp; W</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-9B11661A-7C8E-4CAD-A430-79207FBF93F8</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:13</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 13</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:07:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>15</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31430::H:j22:125</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31430::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>430</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Poppenweiler - Ludwigsburg ZOB - Heilbronner Straße</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6985:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Poppenweiler Jahnstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3412:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg Heilbronner Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-4D13420C-3963-4EB8-AC47-40D01C8E0F25</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:08:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>8</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31425::H:j22:80</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31425::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>425</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Eglosheim - Ludwigsburg ZOB - Oßweil</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5513:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Eglosheim Falkenweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6833:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oßweil Hirschstraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-331CBE65-D97F-450F-92B0-5E3319D8D076</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:13</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 13</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:08:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>21</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31433::R:j22:204</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31433::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>433</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Poppenweiler - Ludwigsburg ZOB - Asperg</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5561:1:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Poppenweiler Burghaldenstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6948:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Asperg Stuttgarter Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>LVL</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-2552</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                     <trias:SituationFullRef>
+                        <siri:ParticipantRef>LVL</siri:ParticipantRef>
+                        <siri:SituationNumber>ems-3779</siri:SituationNumber>
+                     </trias:SituationFullRef>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-68646216-20A8-4277-BC5D-6C7F5A96D35B</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:1</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 1</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:09:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>9</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31421::H:j22:700</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31421::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>421</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Oßweil-Süd - Ludwigsburg Oststadt - ZOB - Neckarweihingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6800:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Oßweil Mehrzweckhalle</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:7451:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Neckarw. Imm.-Dornfeld-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-E7BA9A7B-AC3D-4757-AC37-B098D802F9C6</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:15</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 15</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:09:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31425::R:j22:293</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31425::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>425</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Oßweil - Ludwigsburg ZOB - Eglosheim</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6833:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Oßweil Hirschstraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5513:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Eglosheim Falkenweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-2EA16300-9890-4F17-87D2-D51D34E66C49</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:10:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::H:j22:80</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Pflugfelden - Ludwigsburg ZOB - Schlösslesfeld</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5494:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5502:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-D4803647-4743-4680-BEC4-A4FF0C9C9090</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:1</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 1</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:10:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>9</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::R:j22:77</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Grünbühl - Ludwigsburg ZOB - Hoheneck</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5523:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5528:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-C77AEC59-3C54-4344-86E3-0C836855A969</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:4</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 4</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:10:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>35</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31413::H:j22:35</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31413::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>413</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Kornwestheim Bf - Stadion - Rathaus - Bf - Ludwigsburg</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3408:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Arsenalplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3408:1:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg Arsenalplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-3E05425E-9002-4070-801E-C1F9259E2054</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:8</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 8</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:11:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::R:j22:415</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Schlösslesfeld - Ludwigsburg ZOB - Pflugfelden</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5502:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5494:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-8A356656-D3AB-48F2-81F1-6E13AA888985</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:11:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::H:j22:401</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Hoheneck - Ludwigsburg ZOB - Grünbühl</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5528:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5523:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-EC8B040E-C156-48F1-B6F6-337433B6B863</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:12:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>14</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31421::R:j22:250</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31421::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>421</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Neckarweihingen - Ludwigsburg ZOB - Oststadt - Oßweil-Süd</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7451:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Neckarw. Imm.-Dornfeld-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6800:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oßweil Mehrzweckhalle</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-975B86AD-9445-44F2-83AE-CEB8A8AB68F6</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:13:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31426::R:j22:56</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31426::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>426</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>(Monrepos -) Eglosheim - Ludwigsburg ZOB - Oststadt</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5545:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Eglosheim Straßenäcker</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3476:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg E.-Kranz-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-E04A1E2D-EAEB-48C4-8A0B-5168989DF6D9</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:15</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 15</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:14:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>8</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31426::H:j22:164</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31426::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>426</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg Oststadt - ZOB - Eglosheim (- Monrepos)</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3476:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg E.-Kranz-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5545:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Eglosheim Straßenäcker</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-E874CD96-93F6-42F1-A62B-EA738BDD67E5</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:13</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 13</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:15:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>4</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31429::H:j22:29</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31429::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>429</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Kornwestheim W&amp;W - Ludwigsburg ZOB -  Neckarw.</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3361:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Kornwestheim W &amp; W</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6848:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Neckarweih. H.-Hesse-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-B9363472-5727-4CDF-8C43-24BDEB592335</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:4</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 4</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:16:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31X43::H:j22:49</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31X43::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>X43</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Neckargröningen - Hegnach - Waiblingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08119:7604:7:9</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Waiblingen Bf</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-71A6AF98-B371-4086-B7E0-BC183F850956</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:16</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 16</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:16:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31508::H:j22:51</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31508::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>508</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:28</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Möglingen - Zuffenhausen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:16</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08111:6465:7:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Zuffenhausen Bf</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-463C2A18-BB3B-4B06-A9D8-39C128792B7F</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:16:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31429::R:j22:104</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31429::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>429</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Neckarweih. - Ludwigsburg ZOB - Kornwestheim W&amp;W</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6848:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Neckarweih. H.-Hesse-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3361:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Kornwestheim W &amp; W</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-9A3E3783-AC37-4865-ADB1-06FB5297F75D</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:18:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>8</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31425::H:j22:81</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31425::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>425</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Eglosheim - Ludwigsburg ZOB - Oßweil</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5513:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Eglosheim Falkenweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6833:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oßweil Hirschstraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-9BCB72FE-7512-4E3C-833A-0EA22B4EF495</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:15</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 15</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:19:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31425::R:j22:294</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31425::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>425</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Oßweil - Ludwigsburg ZOB - Eglosheim</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6833:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Oßweil Hirschstraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5513:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Eglosheim Falkenweg</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-62422F89-3006-4579-A7D5-79DD57494601</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:7</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 7</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:19:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>2</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31413::H:j22:38</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31413::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>413</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Kornwestheim Bf - Stadion - Rathaus - Bf - Ludwigsburg</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:3408:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Arsenalplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:3408:1:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Kornwestheim Rechbergstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-358B7F11-1881-44AE-921B-71FB7357718B</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:1</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 1</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:19:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>9</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31421::H:j22:701</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31421::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>421</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Oßweil-Süd - Ludwigsburg Oststadt - ZOB - Neckarweihingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:6800:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Oßweil Mehrzweckhalle</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:7451:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Neckarw. Imm.-Dornfeld-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-A9EF726C-6B11-4B75-B805-6048995FFF1E</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:10</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 10</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:20:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>10</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::H:j22:81</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Pflugfelden - Ludwigsburg ZOB - Schlösslesfeld</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5494:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5502:0:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-716A1882-8693-4CD3-BA85-D496C2AD5CC3</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:1</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 1</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:20:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>9</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::R:j22:78</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Grünbühl - Ludwigsburg ZOB - Hoheneck</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5523:0:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5528:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-4D4E2007-2EBE-43CB-9501-F1CA50B43873</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:17</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 17</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:21:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31534::H:j22:78</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31534::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>534</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:28</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Ludwigsburg - Möglingen - Schwieberdingen - Hemmingen</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7402:5:17</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg ZOB</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:4558:1:4</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Hemmingen Bahnhofstr.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-85BCA9BD-2DD6-4D18-91CC-59E7FBB39B93</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:5:8</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 8</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:21:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31422::R:j22:416</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31422::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>422</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Schlösslesfeld - Ludwigsburg ZOB - Pflugfelden</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5502:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Ludwigsburg Schlösslesfeld</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5494:1:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Pflugfelden Sportplatz</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-A58B6D07-8404-4ED9-ADBF-718B9F5A1000</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:21:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>11</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31427::H:j22:402</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31427::H</trias:LineRef>
+                        <trias:DirectionRef>outward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>427</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Hoheneck - Ludwigsburg ZOB - Grünbühl</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:5528:1:3</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Hoheneck Heilbad</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:5523:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Grünbühl Netzestraße</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+            <trias:StopEventResult>
+               <trias:ResultId>ID-84F0CB8B-E6E7-48AA-86D7-E75FFF7D42C0</trias:ResultId>
+               <trias:StopEvent>
+                  <trias:ThisCall>
+                     <trias:CallAtStop>
+                        <trias:StopPointRef>de:08118:7402:4:6</trias:StopPointRef>
+                        <trias:StopPointName>
+                           <trias:Text>Ludwigsburg ZOB</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:StopPointName>
+                        <trias:PlannedBay>
+                           <trias:Text>Bstg. 6</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PlannedBay>
+                        <trias:ServiceDeparture>
+                           <trias:TimetabledTime>2022-09-01T16:22:00Z</trias:TimetabledTime>
+                        </trias:ServiceDeparture>
+                        <trias:StopSeqNumber>14</trias:StopSeqNumber>
+                     </trias:CallAtStop>
+                  </trias:ThisCall>
+                  <trias:Service>
+                     <trias:OperatingDayRef>2022-09-01</trias:OperatingDayRef>
+                     <trias:JourneyRef>vvs:31421::R:j22:252</trias:JourneyRef>
+                     <trias:ServiceSection>
+                        <trias:LineRef>vvs:31421::R</trias:LineRef>
+                        <trias:DirectionRef>inward</trias:DirectionRef>
+                        <trias:Mode>
+                           <trias:PtMode>bus</trias:PtMode>
+                           <trias:BusSubmode>localBus</trias:BusSubmode>
+                           <trias:Name>
+                              <trias:Text>Bus</trias:Text>
+                              <trias:Language>de</trias:Language>
+                           </trias:Name>
+                        </trias:Mode>
+                        <trias:PublishedLineName>
+                           <trias:Text>421</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:PublishedLineName>
+                        <trias:OperatorRef>vvs:82</trias:OperatorRef>
+                        <trias:RouteDescription>
+                           <trias:Text>Neckarweihingen - Ludwigsburg ZOB - Oststadt - Oßweil-Süd</trias:Text>
+                           <trias:Language>de</trias:Language>
+                        </trias:RouteDescription>
+                     </trias:ServiceSection>
+                     <trias:OriginStopPointRef>de:08118:7451:0:4</trias:OriginStopPointRef>
+                     <trias:OriginText>
+                        <trias:Text>Neckarw. Imm.-Dornfeld-Str.</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:OriginText>
+                     <trias:DestinationStopPointRef>de:08118:6800:0:3</trias:DestinationStopPointRef>
+                     <trias:DestinationText>
+                        <trias:Text>Oßweil Mehrzweckhalle</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:DestinationText>
+                  </trias:Service>
+               </trias:StopEvent>
+            </trias:StopEventResult>
+         </trias:StopEventResponse>
+      </trias:DeliveryPayload>
+   </trias:ServiceDelivery>
+</trias:Trias>

@@ -1,0 +1,76 @@
+HTTP/1.1 200 OK
+server: nginx/1.19.10
+date: Thu, 01 Sep 2022 06:45:36 GMT
+content-type: text/xml
+content-length: 2340
+accept-ranges: none
+last-modified: Thu, 01 Sep 2022 06:45:36 GMT
+access-control-allow-origin: *
+connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<trias:Trias xmlns:trias="http://www.vdv.de/trias" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex2="http://datex2.eu/schema/1_0/1_0" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+   <trias:ServiceDelivery>
+      <siri:ResponseTimestamp>2022-09-01T06:45:36Z</siri:ResponseTimestamp>
+      <siri:ProducerRef>EFAController10.4.25.48-EFA-STATIC03</siri:ProducerRef>
+      <siri:Status>true</siri:Status>
+      <trias:Language>de</trias:Language>
+      <trias:CalcTime>544</trias:CalcTime>
+      <trias:DeliveryPayload>
+         <trias:LocationInformationResponse>
+            <trias:LocationResult>
+               <trias:Location>
+                  <trias:PointOfInterest>
+                     <trias:PointOfInterestCode>poiID:2000295:8111000:-1:Mercedes-Benz Arena:Stuttgart:Mercedes-Benz Arena:ANY:POI:3517128:753890:NBWT:VVS</trias:PointOfInterestCode>
+                     <trias:PointOfInterestName>
+                        <trias:Text>Mercedes-Benz Arena</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:PointOfInterestName>
+                     <trias:LocalityRef>8111000:-1</trias:LocalityRef>
+                  </trias:PointOfInterest>
+                  <trias:LocationName>
+                     <trias:Text>Stuttgart</trias:Text>
+                     <trias:Language>de</trias:Language>
+                  </trias:LocationName>
+                  <trias:GeoPosition>
+                     <trias:Longitude>9.23209</trias:Longitude>
+                     <trias:Latitude>48.79225</trias:Latitude>
+                  </trias:GeoPosition>
+               </trias:Location>
+               <trias:Complete>true</trias:Complete>
+               <trias:Probability>1</trias:Probability>
+            </trias:LocationResult>
+            <trias:LocationResult>
+               <trias:Location>
+                  <trias:StopPoint>
+                     <trias:StopPointRef>de:08111:6080</trias:StopPointRef>
+                     <trias:StopPointName>
+                        <trias:Text>Mercedes-Benz Arena</trias:Text>
+                        <trias:Language>de</trias:Language>
+                     </trias:StopPointName>
+                     <trias:LocalityRef>8111000:51</trias:LocalityRef>
+                  </trias:StopPoint>
+                  <trias:LocationName>
+                     <trias:Text>Stuttgart</trias:Text>
+                     <trias:Language>de</trias:Language>
+                  </trias:LocationName>
+                  <trias:GeoPosition>
+                     <trias:Longitude>9.24107</trias:Longitude>
+                     <trias:Latitude>48.79194</trias:Latitude>
+                  </trias:GeoPosition>
+               </trias:Location>
+               <trias:Complete>true</trias:Complete>
+               <trias:Probability>1</trias:Probability>
+               <trias:Mode>
+                  <trias:PtMode>rail</trias:PtMode>
+                  <trias:RailSubmode>suburbanRailway</trias:RailSubmode>
+               </trias:Mode>
+               <trias:Mode>
+                  <trias:PtMode>bus</trias:PtMode>
+                  <trias:BusSubmode>localBus</trias:BusSubmode>
+               </trias:Mode>
+            </trias:LocationResult>
+         </trias:LocationInformationResponse>
+      </trias:DeliveryPayload>
+   </trias:ServiceDelivery>
+</trias:Trias>
