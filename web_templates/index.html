@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVS Departures - {{ stop_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚌</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚌 VVS Departures</h1>
+            <h2>{{ stop_name }}</h2>
+            <div class="last-updated">
+                Last updated: <span id="last-updated-time">{{ last_updated }}</span>
+                <button id="refresh-btn" class="refresh-btn" onclick="refreshDepartures()">
+                    🔄 Refresh
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <span>Loading departures...</span>
+            </div>
+
+            <div id="error-message" class="error-message" style="display: none;">
+                <p>❌ Error loading departures. Please try again.</p>
+            </div>
+
+            <div class="departures-container">
+                <table id="departures-table" class="departures-table">
+                    <thead>
+                        <tr>
+                            <th>Line</th>
+                            <th>Destination</th>
+                            <th>Time</th>
+                            <th>Delay</th>
+                            <th>Platform</th>
+                        </tr>
+                    </thead>
+                    <tbody id="departures-tbody">
+                        {% for departure in departures %}
+                        <tr class="departure-row {% if departure.delay_minutes > 0 %}delayed{% endif %}">
+                            <td class="line-cell">
+                                <span class="line-badge transport-{{ departure.transport_mode }}">
+                                    {{ departure.line }}
+                                </span>
+                            </td>
+                            <td class="destination-cell">{{ departure.destination }}</td>
+                            <td class="time-cell">
+                                <span class="display-time">{{ departure.display_time }}</span>
+                                {% if departure.realtime %}
+                                <span class="realtime-indicator" title="Real-time data">🔴</span>
+                                {% endif %}
+                            </td>
+                            <td class="delay-cell">
+                                <span class="delay-text {% if departure.delay_minutes > 0 %}delay-late{% elif departure.delay_minutes < 0 %}delay-early{% else %}delay-ontime{% endif %}">
+                                    {{ departure.delay_text }}
+                                </span>
+                            </td>
+                            <td class="platform-cell">{{ departure.platform }}</td>
+                        </tr>
+                        {% endfor %}
+                        {% if departures|length == 0 %}
+                        <tr>
+                            <td colspan="5" class="no-departures">
+                                No departures found. Please try refreshing.
+                            </td>
+                        </tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <p>Data provided by VVS (Verkehrs- und Tarifverbund Stuttgart)</p>
+            <p>Last updated: <span id="footer-last-updated">{{ last_updated }}</span></p>
+        </footer>
+    </div>
+
+    <script>
+        let refreshInterval;
+
+        async function refreshDepartures() {
+            const refreshBtn = document.getElementById('refresh-btn');
+            const loading = document.getElementById('loading');
+            const errorMessage = document.getElementById('error-message');
+            const departuresTable = document.getElementById('departures-table');
+            
+            // Show loading state
+            refreshBtn.disabled = true;
+            refreshBtn.innerHTML = '⏳ Loading...';
+            loading.style.display = 'flex';
+            errorMessage.style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/departures');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                updateDeparturesTable(data.departures);
+                updateLastUpdatedTime(data.last_updated);
+                
+            } catch (error) {
+                console.error('Error fetching departures:', error);
+                errorMessage.style.display = 'block';
+                departuresTable.style.opacity = '0.5';
+            } finally {
+                // Reset button state
+                refreshBtn.disabled = false;
+                refreshBtn.innerHTML = '🔄 Refresh';
+                loading.style.display = 'none';
+            }
+        }
+
+        function updateDeparturesTable(departures) {
+            const tbody = document.getElementById('departures-tbody');
+            
+            if (departures.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="5" class="no-departures">
+                            No departures found. Please try refreshing.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = departures.map(dep => `
+                <tr class="departure-row ${dep.delay_minutes > 0 ? 'delayed' : ''}">
+                    <td class="line-cell">
+                        <span class="line-badge transport-${dep.transport_mode}">
+                            ${dep.line}
+                        </span>
+                    </td>
+                    <td class="destination-cell">${dep.destination}</td>
+                    <td class="time-cell">
+                        <span class="display-time">${dep.display_time}</span>
+                        ${dep.realtime ? '<span class="realtime-indicator" title="Real-time data">🔴</span>' : ''}
+                    </td>
+                    <td class="delay-cell">
+                        <span class="delay-text ${dep.delay_minutes > 0 ? 'delay-late' : dep.delay_minutes < 0 ? 'delay-early' : 'delay-ontime'}">
+                            ${dep.delay_text}
+                        </span>
+                    </td>
+                    <td class="platform-cell">${dep.platform}</td>
+                </tr>
+            `).join('');
+            
+            // Reset table opacity
+            document.getElementById('departures-table').style.opacity = '1';
+        }
+
+        function updateLastUpdatedTime(lastUpdated) {
+            document.getElementById('last-updated-time').textContent = lastUpdated;
+            document.getElementById('footer-last-updated').textContent = lastUpdated;
+        }
+
+        // Auto-refresh every 30 seconds
+        function startAutoRefresh() {
+            refreshInterval = setInterval(refreshDepartures, 30000);
+        }
+
+        function stopAutoRefresh() {
+            if (refreshInterval) {
+                clearInterval(refreshInterval);
+            }
+        }
+
+        // Start auto-refresh when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            startAutoRefresh();
+            
+            // Stop auto-refresh when page is hidden (e.g., tab switch)
+            document.addEventListener('visibilitychange', function() {
+                if (document.hidden) {
+                    stopAutoRefresh();
+                } else {
+                    startAutoRefresh();
+                }
+            });
+        });
+
+        // Keyboard shortcut for refresh (R key)
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'r' || event.key === 'R') {
+                if (!event.ctrlKey && !event.metaKey && !event.altKey) {
+                    event.preventDefault();
+                    refreshDepartures();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -32,12 +32,12 @@ class VVSApiClient:
         self.session = requests.Session()
         self.session.headers.update(defaultHeaders)
         
-        # Get the directory where templates are stored
-        self.templatesDir = Path(__file__).parent / "templates"
+        # Get the directory where XML templates are stored
+        self.templatesDir = Path(__file__).parent / "xml_templates"
     
     def _loadTemplate(self, templateName: str) -> str:
         """
-        Load an XML template from the templates directory.
+        Load an XML template from the xml_templates directory.
         
         Args:
             templateName: Name of the template file (without .xml extension)
