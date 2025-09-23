@@ -24,34 +24,50 @@ STUTTGART_TZ = pytz.timezone('Europe/Berlin')
 
 def _parseDateTime(datetimeStr: str) -> Optional[datetime]:
     """
-    Parse ISO datetime string to datetime object.
+    Parse ISO datetime string from VVS API to local Stuttgart time.
+    
+    VVS API always returns UTC time in format: 2025-09-23T12:34:00Z
+    This function converts it to Stuttgart local time.
     
     Args:
-        datetimeStr: ISO format datetime string
+        datetimeStr: ISO format datetime string from VVS API
         
     Returns:
-        Parsed datetime object or None if parsing fails
+        Datetime object in Stuttgart timezone or None if parsing fails
     """
     if not datetimeStr:
         return None
         
     try:
-        # Handle different datetime formats from VVS
-        for fmt in ["%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S.%f"]:
-            try:
-                dt = datetime.strptime(datetimeStr, fmt)
-                # If no timezone info, assume it's in Stuttgart timezone
-                if dt.tzinfo is None:
-                    dt = STUTTGART_TZ.localize(dt)
-                return dt
-            except ValueError:
-                continue
+        # VVS API returns UTC time with Z suffix
+        if datetimeStr.endswith('Z'):
+            # Remove Z and parse as UTC
+            utc_dt = datetime.strptime(datetimeStr[:-1], "%Y-%m-%dT%H:%M:%S")
+            utc_dt = pytz.UTC.localize(utc_dt)
+            # Convert to Stuttgart local time
+            return utc_dt.astimezone(STUTTGART_TZ)
         
-        # If none of the formats work, try parsing as-is
-        return datetime.fromisoformat(datetimeStr.replace('Z', '+00:00'))
+        # Fallback: try parsing without Z (assume UTC)
+        utc_dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%S")
+        utc_dt = pytz.UTC.localize(utc_dt)
+        return utc_dt.astimezone(STUTTGART_TZ)
         
     except (ValueError, TypeError):
         return None
+
+
+def _parseTimeString(datetimeStr: str) -> Optional[str]:
+    """
+    Parse ISO datetime string from VVS API and return as H:M format.
+    
+    Args:
+        datetimeStr: ISO format datetime string from VVS API
+        
+    Returns:
+        Time string in H:M format or None if parsing fails
+    """
+    dt = _parseDateTime(datetimeStr)
+    return dt.strftime("%H:%M") if dt else None
 
 
 def _getText(element: Optional[ET.Element], default: str = "") -> str:
@@ -188,16 +204,17 @@ class VVSResponseParser:
                     # Extract platform from PlannedBay
                     platformElem = thisCall.find('.//trias:PlannedBay/trias:Text', NAMESPACES)
                     platform = _getText(platformElem) if platformElem is not None else None
-                
-                scheduledTime = _parseDateTime(_getText(timetabledTimeElem)) if timetabledTimeElem is not None else None
+
+                scheduledDateTime = _parseDateTime(_getText(timetabledTimeElem)) if timetabledTimeElem is not None else None
+                scheduledTime = _parseTimeString(_getText(timetabledTimeElem)) if timetabledTimeElem is not None else None
                 estimatedTime = _parseDateTime(_getText(estimatedTimeElem)) if estimatedTimeElem is not None else None
                 
                 # Calculate delay
                 delayMinutes = None
                 realtime = estimatedTime is not None
                 
-                if scheduledTime and estimatedTime:
-                    delaySeconds = (estimatedTime - scheduledTime).total_seconds()
+                if scheduledDateTime and estimatedTime:
+                    delaySeconds = (estimatedTime - scheduledDateTime).total_seconds()
                     delayMinutes = int(delaySeconds / 60)
                 
                 if journeyRef and line and destination and scheduledTime:
@@ -206,6 +223,7 @@ class VVSResponseParser:
                         line=line,
                         destination=destination,
                         scheduledTime=scheduledTime,
+                        _scheduledDateTime=scheduledDateTime,
                         estimatedTime=estimatedTime,
                         delayMinutes=delayMinutes,
                         platform=platform,

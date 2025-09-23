@@ -37,11 +37,11 @@ def get_departures_data():
         
         # Convert departures to dictionaries for template rendering
         departures_data = []
-        for dep in departures:
+        for dep in departures:            
             departure_dict = {
                 'line': dep.line,
                 'destination': dep.destination,
-                'scheduled_time': dep.scheduledTime.strftime("%H:%M"),
+                'scheduled_time': dep.scheduledTime,
                 'display_time': dep.displayTime,
                 'delay_text': dep.delayText,
                 'delay_minutes': dep.delayMinutes or 0,

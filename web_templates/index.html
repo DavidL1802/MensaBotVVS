@@ -51,7 +51,7 @@
                             </td>
                             <td class="destination-cell">{{ departure.destination }}</td>
                             <td class="time-cell">
-                                <span class="display-time">{{ departure.display_time }}</span>
+                                <span class="display-time">{{ departure.scheduled_time }}</span>
                                 {% if departure.realtime %}
                                 <span class="realtime-indicator" title="Real-time data">🔴</span>
                                 {% endif %}

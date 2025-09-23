@@ -128,7 +128,7 @@ class VVSApiClient:
     def getDepartures(
         self, 
         stopPointRef: str, 
-        departureTime: Optional[str] = None,
+        departureTime: Optional[str] = datetime.now().strftime(timeFormat),
         numberOfResults: int = 40
     ) -> str:
         """
@@ -142,8 +142,6 @@ class VVSApiClient:
         Returns:
             Raw XML response as string
         """
-        if departureTime is None:
-            departureTime = datetime.now().strftime(timeFormat)
         
         template = self._loadTemplate("departures")
         xmlRequest = self._fillTemplate(
@@ -152,7 +150,6 @@ class VVSApiClient:
             departureTime=departureTime,
             numberOfResults=numberOfResults
         )
-        
         response = self._makeRequest(xmlRequest)
         return response.text
     

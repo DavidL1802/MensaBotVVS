@@ -49,6 +49,7 @@ def listDepartures(
         List of Departure objects
     """
     departureTimeStr = departureTime.strftime("%Y-%m-%dT%H:%M:%S")
+    print(departureTimeStr)
     
     with VVSApiClient() as client:
         xmlResponse = client.getDepartures(
@@ -56,6 +57,14 @@ def listDepartures(
             departureTime=departureTimeStr,
             numberOfResults=numberOfResults
         )
+        # Save XML response to a human-readable (pretty-printed) XML file
+        import xml.dom.minidom
+
+        dom = xml.dom.minidom.parseString(xmlResponse)
+        pretty_xml = dom.toprettyxml(indent="  ")
+
+        with open("departures.xml", "w", encoding="utf-8") as f:
+            f.write(pretty_xml)
         return VVSResponseParser.parseDepartures(xmlResponse)
 
 
@@ -100,12 +109,4 @@ def listConnections(
             numberOfResults=numberOfResults,
             includeIntermediateStops=includeIntermediateStops
         )
-        # Save XML response to a human-readable (pretty-printed) XML file
-        import xml.dom.minidom
-
-        dom = xml.dom.minidom.parseString(xmlResponse)
-        pretty_xml = dom.toprettyxml(indent="  ")
-
-        with open("trip_connections.xml", "w", encoding="utf-8") as f:
-            f.write(pretty_xml)
         return VVSResponseParser.parseConnections(xmlResponse)

@@ -8,6 +8,10 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional, List
 from enum import Enum
+import pytz
+
+# Timezone for Stuttgart
+STUTTGART_TZ = pytz.timezone('Europe/Berlin')
 
 
 class TransportMode(Enum):
@@ -50,7 +54,8 @@ class Departure:
     journeyRef: str
     line: str
     destination: str
-    scheduledTime: datetime
+    scheduledTime: str  # Formatted time string (H:M)
+    _scheduledDateTime: Optional[datetime] = None  # Internal datetime for calculations
     estimatedTime: Optional[datetime] = None
     delayMinutes: Optional[int] = None
     platform: Optional[str] = None
@@ -70,8 +75,15 @@ class Departure:
     @property
     def displayTime(self) -> str:
         """Return time for display (estimated if available, otherwise scheduled)."""
-        timeToShow = self.estimatedTime or self.scheduledTime
-        return timeToShow.strftime("%H:%M")
+        if self.estimatedTime:
+            # Convert estimated time to Stuttgart timezone if timezone-aware
+            timeToShow = self.estimatedTime
+            if timeToShow.tzinfo is not None:
+                timeToShow = timeToShow.astimezone(STUTTGART_TZ)
+            return timeToShow.strftime("%H:%M")
+        else:
+            # Return the already formatted scheduled time
+            return self.scheduledTime
     
     def __str__(self) -> str:
         return f"{self.line} → {self.destination} ({self.displayTime}, {self.delayText})"
