@@ -57,14 +57,6 @@ def listDepartures(
             departureTime=departureTimeStr,
             numberOfResults=numberOfResults
         )
-        # Save XML response to a human-readable (pretty-printed) XML file
-        import xml.dom.minidom
-
-        dom = xml.dom.minidom.parseString(xmlResponse)
-        pretty_xml = dom.toprettyxml(indent="  ")
-
-        with open("departures.xml", "w", encoding="utf-8") as f:
-            f.write(pretty_xml)
         return VVSResponseParser.parseDepartures(xmlResponse)
 
 

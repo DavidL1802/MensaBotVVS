@@ -55,7 +55,7 @@ class Departure:
     line: str
     destination: str
     scheduledTime: str  # Formatted time string (H:M)
-    _scheduledDateTime: Optional[datetime] = None  # Internal datetime for calculations
+    scheduledDateTime: Optional[datetime] = None  # Internal datetime for calculations
     estimatedTime: Optional[datetime] = None
     delayMinutes: Optional[int] = None
     platform: Optional[str] = None

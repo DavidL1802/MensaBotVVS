@@ -223,7 +223,7 @@ class VVSResponseParser:
                         line=line,
                         destination=destination,
                         scheduledTime=scheduledTime,
-                        _scheduledDateTime=scheduledDateTime,
+                        scheduledDateTime=scheduledDateTime,
                         estimatedTime=estimatedTime,
                         delayMinutes=delayMinutes,
                         platform=platform,

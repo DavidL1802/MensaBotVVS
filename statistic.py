@@ -150,7 +150,7 @@ class DepartureStatistics:
         departures = listDepartures(
             stopId=stopPointRef, 
             departureTime=thirtyMinutesAgo,
-            numberOfResults=15
+            numberOfResults=25
         )
         
         print(f"🕐 Retrieving departures from: {thirtyMinutesAgo.strftime('%H:%M:%S')} (30 minutes ago)")
@@ -167,13 +167,14 @@ class DepartureStatistics:
             journeyRef = departure.journeyRef
             line = departure.line
             delay = departure.delayMinutes
-            scheduledDateTime = departure.scheduledTime
+            scheduledDateTime = departure.scheduledDateTime
             
             # Skip if we don't have essential data
             if not journeyRef or not line or not scheduledDateTime:
                 continue
             
             # Extract date from scheduled datetime
+            print(scheduledDateTime)
             departureDate = scheduledDateTime.strftime("%d_%m_%Y")
             
             if departureDate not in departuresByDate:
