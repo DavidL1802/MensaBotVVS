@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.2" xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri">
+	<ServiceRequest>
+		<siri:RequestTimestamp>{{timestamp}}</siri:RequestTimestamp>
+		<siri:RequestorRef>{{requestorRef}}</siri:RequestorRef>
+		<RequestPayload>
+			<LocationInformationRequest>
+				<InitialInput>
+					<LocationName>{{location}}</LocationName>
+				</InitialInput>
+				<Restrictions>
+					<IncludePtModes>true</IncludePtModes>
+				</Restrictions>
+			</LocationInformationRequest>
+		</RequestPayload>
+	</ServiceRequest>
+</Trias>
